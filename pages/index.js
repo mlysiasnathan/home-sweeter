@@ -52,6 +52,7 @@ export const getStaticProps = async () => {
   const productsQuery = '*[_type == "product" && !(_id in path("drafts.**"))] | order(_createdAt desc) { _id, name, slug, models, images }[0..5]'
   const products = await client.fetch(productsQuery)
 
+
   return {
     props: { products },
     revalidate: 10
