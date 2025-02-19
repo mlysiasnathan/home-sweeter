@@ -12,12 +12,12 @@ const AboutHead = ({ locale }) => {
         </> :
         locale === 'fr-FR' ? 
         <>          
-          <title>Arben home - Qui sommes nous?</title>
+          <title>Home SWEETER - Qui sommes nous?</title>
           <meta name='description' content='Qui sommes nous? nous sommes une boutique en ligne qui vend du linge de chambre fait main en Algérie' />
           <meta name='keywords' content='shopping en ligne, draps de lit, linge de chambre, housse de couette, ensembles de lit, chambre à coucher' />
         </> :
         <>          
-          <title>Arben home - Who are we?</title>
+          <title>Home SWEETER - Who are we?</title>
           <meta name='description' content='Who are we? we are an online store that sells handmade bedroom linen in Algeria' />
           <meta name='keywords' content='online shopping, algeria online shopping, bed sheets, bedroom linen, quilt cover, bed sets, bedroom, cash on delivery' />
         </> 

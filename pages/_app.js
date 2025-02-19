@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import Head from 'next/head'
+import { SessionProvider } from "next-auth/react";
 import { StateContext } from '../context/stateContext'
 import { Analytics } from '@vercel/analytics/react'
 
@@ -9,6 +10,7 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <>
+        <SessionProvider session={pageProps.session}>
       <StateContext>
       <Head>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -22,6 +24,7 @@ const MyApp = ({ Component, pageProps }) => {
           <Component {...pageProps} />
         </Layout>
       </StateContext>
+        </SessionProvider>
       <Analytics />
     </>
   )
