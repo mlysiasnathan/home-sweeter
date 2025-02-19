@@ -1,4 +1,4 @@
-# Arben Home - an e-commerce website with headless cms (sanity)
+# Home SWEETER - an e-commerce website with headless cms (sanity)
 
 This is a complete to the e-commerce website that can be used in production, it lacks payment method as an option right now to target algerian market, the project now is in the testing phase. 
 
