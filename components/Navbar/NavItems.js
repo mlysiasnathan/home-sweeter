@@ -1,4 +1,7 @@
+'use client';
+
 import dynamic from 'next/dynamic'
+import { signIn, signOut, useSession } from "next-auth/react";
 
 import { useRouter } from 'next/router'
 
@@ -10,6 +13,7 @@ import { aboutLinks, shopLinks } from '../../lib/data/navLinks'
 const NavItems = ({ sidebar, handleClose }) => {
 
   const { locale } = useRouter()
+  const { data: session } = useSession();
 
   return (
     <>
@@ -36,6 +40,22 @@ const NavItems = ({ sidebar, handleClose }) => {
       >
         <Dropdown links={aboutLinks} sidebar={sidebar} handleClose={handleClose} />
       </NavItem>
+      {session ? (
+        <NavItem
+            linkName={locale == 'fr-FR' ? 'Se deconnecter' :   'LOG OUT' }
+            onClick={() => signOut()}
+            locale={locale}
+            sidebar={sidebar}
+            handleClose={handleClose}
+        />) : (
+        <NavItem
+            linkName={locale == 'fr-FR' ? 'Se connecter' :   'LOG IN' }
+            onClick={() => signIn("google")}
+            locale={locale}
+            sidebar={sidebar}
+            handleClose={handleClose}
+        />)}
+
     </>
   )
 }
