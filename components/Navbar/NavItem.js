@@ -6,7 +6,7 @@ import { VscChevronDown } from 'react-icons/vsc'
 import navClasses from './NavItem.module.css'
 import sideClasses from './NavItemSidebar.module.css'
 
-const NavItem = ({ children, linkName, withDropDown, sidebar, to, handleClose, locale }) => {
+const NavItem = ({ children, linkName, withDropDown, sidebar, to, handleClose, locale, onClick }) => {
 
   const { wrapper, wrapper_ar, main, link, chevron, menu, hidden, rotated } = sidebar ? sideClasses : navClasses
 
@@ -19,6 +19,9 @@ const NavItem = ({ children, linkName, withDropDown, sidebar, to, handleClose, l
   }
 
   const handleRouterPush = () => {
+    if (onClick !== null){
+      onClick();
+    }
     if (to !== undefined && !withDropDown && sidebar) {
       router.push(to)
       handleClose()
