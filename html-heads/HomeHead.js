@@ -12,12 +12,12 @@ const HomeHead = ({ locale }) => {
         </> :
         locale === 'fr-FR' ? 
         <>          
-          <title>Arben home - Achat en ligne de linge de lit en Algérie</title>
+          <title>Home SWEETER - Achat en ligne de linge de lit en Algérie</title>
           <meta name='description' content='Parcourez notre large sélection de linge de chambre pour trouver une large sélection de produits de haute qualité' />
           <meta name='keywords' content='shopping en ligne, draps de lit, linge de chambre, housse de couette, ensembles de lit, chambre à coucher' />
         </> :
         <>          
-          <title>Arben home - Online shopping for bedroom linen in Algeria</title>
+          <title>Home SWEETER - Online shopping for bedroom linen in Algeria</title>
           <meta name='description' content='Browse our wide selection of bedroom linen to find the a wide selection of high quality products' />
           <meta name='keywords' content='online shopping, algeria online shopping, bed sheets, bedroom linen, quilt cover, bed sets, bedroom, cash on delivery' />
         </> 
