@@ -4,6 +4,7 @@ import { useNextSanityImage } from 'next-sanity-image'
 import Image from 'next/image'
 import Loading from '../Loading'
 
+
 const ProductsCards = dynamic(() => import('../ProductsCards'), {
   loading: () => <Loading />
 })
