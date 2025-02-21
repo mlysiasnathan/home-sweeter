@@ -4,48 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="967cd9d2-69eb-4080-a7f3-0c6df848c944" name="Changes" comment="Task done: UI components">
-      <change afterPath="$PROJECT_DIR$/.idea/home-sweeter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/nodemailer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/booking/[email]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/booking/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/properties/[id]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/properties/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/users/[id]/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/rentals/[id]/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/rentals/page.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewInsightCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SessionProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/sequelize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Property.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/booking/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/booking/page.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/our-fleet/page.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Insights.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Insights.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OurObjective.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurObjective.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SelectForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SelectForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Service.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StepFour.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepFour.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StepOne.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepOne.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Subfooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subfooter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TitleText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleText.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/label.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/popover.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/popover.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/select.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="967cd9d2-69eb-4080-a7f3-0c6df848c944" name="Changes" comment="Task done: working on BOOKing system">
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/payment/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/success/[id]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contants/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/sendEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/stripe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/booking/[email]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/booking/[email]/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/rentals/[id]/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/rentals/[id]/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,26 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/laragon/www/lysnbrain projects/home-sweeter/src/app/api/users",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.dev.executor": "Run",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/lysnbrain projects/home-sweeter/src/app/api/users&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\laragon\\www\\lysnbrain projects\\home-sweeter\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api\users" />
@@ -106,13 +82,14 @@
       <recent name="C:\laragon\www\lysnbrain projects\home-sweeter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\booking\[email]" />
       <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api\booking\[email]" />
       <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api" />
       <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api\booking" />
       <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\public\home" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,9 +100,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -144,71 +132,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740039590532</updated>
-      <workItem from="1740039594596" duration="72393000" />
-    </task>
-    <task id="LOCAL-00001" summary="Task done: Add image for UI test">
-      <option name="closed" value="true" />
-      <created>1740147097927</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147097927</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Task done: working on user and property migrations">
-      <option name="closed" value="true" />
-      <created>1740147138523</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147138523</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Task done: working on booking migration using sequelize">
-      <option name="closed" value="true" />
-      <created>1740147180270</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147180270</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Task done: working on models">
-      <option name="closed" value="true" />
-      <created>1740147204462</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147204462</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Task done: dammy data and constants">
-      <option name="closed" value="true" />
-      <created>1740147359527</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147359527</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Task done: UI components">
-      <option name="closed" value="true" />
-      <created>1740147382923</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147382923</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Task done: UI components">
-      <option name="closed" value="true" />
-      <created>1740147396595</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147396595</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Task done: UI components">
-      <option name="closed" value="true" />
-      <created>1740147407775</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1740147407775</updated>
+      <workItem from="1740039594596" duration="82185000" />
+      <workItem from="1740165824190" duration="377000" />
+      <workItem from="1740166400610" duration="10484000" />
     </task>
     <task id="LOCAL-00009" summary="Task done: UI components">
       <option name="closed" value="true" />
@@ -242,19 +168,398 @@
       <option name="project" value="LOCAL" />
       <updated>1740147469706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147594835</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147594835</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147622428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147622428</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147635855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147635855</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147669418</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147669418</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147688785</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147688785</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147716806</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147716806</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147735996</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147735996</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147753476</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147753476</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Task done: Google Auth keys">
+      <option name="closed" value="true" />
+      <created>1740147789415</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147789415</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Task done: working on database sql config for migrations and db">
+      <option name="closed" value="true" />
+      <created>1740147841206</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147841206</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Task done: working on database sql config for migrations and db">
+      <option name="closed" value="true" />
+      <created>1740147860634</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147860634</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Task done: Database relations">
+      <option name="closed" value="true" />
+      <created>1740147900786</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147900786</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Task done: add toastify in app">
+      <option name="closed" value="true" />
+      <created>1740147937892</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147937892</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Task done: add packages">
+      <option name="closed" value="true" />
+      <created>1740147958981</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147958981</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Task done: add packages">
+      <option name="closed" value="true" />
+      <created>1740147972173</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147972173</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Task done: init nextJS app">
+      <option name="closed" value="true" />
+      <created>1740147994879</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147994879</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Task done: init nextJS app">
+      <option name="closed" value="true" />
+      <created>1740148026905</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148026905</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Task done:property model">
+      <option name="closed" value="true" />
+      <created>1740148070971</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148070971</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Task done:API call for booking history">
+      <option name="closed" value="true" />
+      <created>1740148111675</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148111675</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Task done:API call for reqesting booking">
+      <option name="closed" value="true" />
+      <created>1740148149588</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148149593</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Task done:API call for fetching property by ID">
+      <option name="closed" value="true" />
+      <created>1740148193221</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148193221</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Task done:API call for fetching all properties and adding them">
+      <option name="closed" value="true" />
+      <created>1740148236397</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148236397</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Task done:API call for fetching renters by ID">
+      <option name="closed" value="true" />
+      <created>1740148263200</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148263200</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Task done:API call for  authentication using Google from Next-Auth">
+      <option name="closed" value="true" />
+      <created>1740148320473</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148320473</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Task done:Configure the SQL db using sequelize">
+      <option name="closed" value="true" />
+      <created>1740148387116</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148387116</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Task done:Configure User model">
+      <option name="closed" value="true" />
+      <created>1740148404901</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148404901</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Task done:Configure db">
+      <option name="closed" value="true" />
+      <created>1740148483056</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148483056</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Task done:init app">
+      <option name="closed" value="true" />
+      <created>1740148500759</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1740148500759</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Task done: working on Booking system">
+      <option name="closed" value="true" />
+      <created>1740178279300</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178279300</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Task done: add image for UI development">
+      <option name="closed" value="true" />
+      <created>1740178429622</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178429622</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Task done: add components Ui">
+      <option name="closed" value="true" />
+      <created>1740178462326</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178462326</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Task done: add components Ui">
+      <option name="closed" value="true" />
+      <created>1740178471628</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178471628</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Task done: add components Ui">
+      <option name="closed" value="true" />
+      <created>1740178483647</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178483647</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178510545</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178510545</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178518352</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178518352</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178524902</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178524902</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178531859</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178531859</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178538040</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178538040</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178547869</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178547869</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178580569</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178580569</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178590434</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178590434</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178601065</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178601065</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178610224</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178610224</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178631451</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178631451</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Task done: working on BOOKing system">
+      <option name="closed" value="true" />
+      <created>1740178646761</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1740178646761</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Task done: Add image for UI test" />
-    <MESSAGE value="Task done: working on user and property migrations" />
     <MESSAGE value="Task done: working on booking migration using sequelize" />
     <MESSAGE value="Task done: working on models" />
     <MESSAGE value="Task done: dammy data and constants" />
     <MESSAGE value="Task done: UI components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task done: UI components" />
+    <MESSAGE value="Task done: Google Auth keys" />
+    <MESSAGE value="Task done: working on database sql config for migrations and db" />
+    <MESSAGE value="Task done: Database relations" />
+    <MESSAGE value="Task done: add toastify in app" />
+    <MESSAGE value="Task done: add packages" />
+    <MESSAGE value="Task done: init nextJS app" />
+    <MESSAGE value="Task done:property model" />
+    <MESSAGE value="Task done:API call for booking history" />
+    <MESSAGE value="Task done:API call for reqesting booking" />
+    <MESSAGE value="Task done:API call for fetching property by ID" />
+    <MESSAGE value="Task done:API call for fetching all properties and adding them" />
+    <MESSAGE value="Task done:API call for fetching renters by ID" />
+    <MESSAGE value="Task done:API call for  authentication using Google from Next-Auth" />
+    <MESSAGE value="Task done:Configure the SQL db using sequelize" />
+    <MESSAGE value="Task done:Configure User model" />
+    <MESSAGE value="Task done:Configure db" />
+    <MESSAGE value="Task done:init app" />
+    <MESSAGE value="Task done: working on Booking system" />
+    <MESSAGE value="Task done: add image for UI development" />
+    <MESSAGE value="Task done: add components Ui" />
+    <MESSAGE value="Task done: working on BOOKing system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task done: working on BOOKing system" />
   </component>
 </project>
