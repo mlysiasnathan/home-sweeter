@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion";
-import {fadeIn} from "../contants/motion";
 import {useRouter, useSearchParams} from "next/navigation";
+import {fadeIn} from "../contants/motion";
 
 const InsightCard = ({property, index, isForm}) => {
     const searchParams = useSearchParams();
