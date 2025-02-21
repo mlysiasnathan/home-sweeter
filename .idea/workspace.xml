@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="967cd9d2-69eb-4080-a7f3-0c6df848c944" name="Changes" comment="Task done: UI components">
+      <change afterPath="$PROJECT_DIR$/.idea/home-sweeter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/nodemailer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/booking/[email]/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/booking/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/properties/[id]/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/properties/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/users/[id]/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/rentals/[id]/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/rentals/page.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewInsightCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SessionProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/sequelize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/booking/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/booking/page.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/our-fleet/page.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Insights.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Insights.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OurObjective.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OurObjective.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SelectForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SelectForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Service.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Service.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepFour.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepFour.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StepOne.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StepOne.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Subfooter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subfooter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TitleText.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TitleText.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/label.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/label.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/popover.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/popover.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/select.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tIVU2dHDpj6kE4dYTRfhqMEyKi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/laragon/www/lysnbrain projects/home-sweeter/src/app/api/users",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.dev.executor": "Run",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api\users" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\components" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\booking" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\migrations" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api\booking\[email]" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\src\app\api\booking" />
+      <recent name="C:\laragon\www\lysnbrain projects\home-sweeter\public\home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="967cd9d2-69eb-4080-a7f3-0c6df848c944" name="Changes" comment="" />
+      <created>1740039590532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740039590532</updated>
+      <workItem from="1740039594596" duration="72393000" />
+    </task>
+    <task id="LOCAL-00001" summary="Task done: Add image for UI test">
+      <option name="closed" value="true" />
+      <created>1740147097927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147097927</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task done: working on user and property migrations">
+      <option name="closed" value="true" />
+      <created>1740147138523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147138523</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Task done: working on booking migration using sequelize">
+      <option name="closed" value="true" />
+      <created>1740147180270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147180270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task done: working on models">
+      <option name="closed" value="true" />
+      <created>1740147204462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147204462</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Task done: dammy data and constants">
+      <option name="closed" value="true" />
+      <created>1740147359527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147359527</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147382923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147382923</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147396595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147396595</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147407775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147407775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147420376</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147420376</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147437507</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147437507</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147457028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147457028</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Task done: UI components">
+      <option name="closed" value="true" />
+      <created>1740147469706</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147469706</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task done: Add image for UI test" />
+    <MESSAGE value="Task done: working on user and property migrations" />
+    <MESSAGE value="Task done: working on booking migration using sequelize" />
+    <MESSAGE value="Task done: working on models" />
+    <MESSAGE value="Task done: dammy data and constants" />
+    <MESSAGE value="Task done: UI components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task done: UI components" />
+  </component>
+</project>
