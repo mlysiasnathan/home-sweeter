@@ -2,13 +2,15 @@
 import React, {useState} from "react";
 import Link from "next/link";
 import {appName, links} from "../contants/appdata";
-import {usePathname} from "next/navigation";
+import {usePathname, useRouter} from "next/navigation";
 import {signIn, signOut, useSession} from "next-auth/react";
 
 const Header = () => {
     const {data: session} = useSession();
+    // if (session) toast.success(`Welcome to H&S ${session.user.name}`)
     const pathname = usePathname();
     const [isMenu, setIsMenu] = useState(false);
+    const router = useRouter();
     return (
         <div className="bg-white shadow-lg h-16 flex justify-between items-center md:px-[10%]">
             <Link
@@ -50,7 +52,7 @@ const Header = () => {
                     </div>
                 )}
                 {session ? (
-                    <div onClick={() => signOut()}>
+                    <div onClick={() => signOut().then((_) => router.push('/'))}>
                         <Link className="text-red-600" href="#">
                             <span>LOGOUT</span>
                         </Link>
