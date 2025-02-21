@@ -1,32 +1,56 @@
 import {Booking, User} from "../../../../models";
+import {address} from "framer-motion/m"; // Import your models
 
-// import {NextResponse} from "next/server";
-
-export async function GET(req, res, {params}) {
-    const {email} = req.query;
+export async function GET(req, {params}) {
+    const {email} = params; // Extract email from URL parameters
 
     if (!email) {
-        return res.status(400).json({error: "Email is required"});
+        return new Response(JSON.stringify({error: "Dynamic params Email or PropertyId is required"}), {status: 400});
     }
 
-    try {
-        // Find the user by email
-        const user = await User.findOne({where: {email}});
 
-        if (!user) {
-            return res.status(404).json({error: "User not found"});
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        // if this is a valid email address
+        try {
+            // Find the user by email
+            const user = await User.findOne({where: {email}});
+
+            if (!user) {
+                return new Response(JSON.stringify({error: "User not found"}), {status: 404});
+            }
+
+            // Fetch all bookings for this user
+            const bookings = await Booking.findAll({
+                where: {renterId: user.id}, // Assuming 'renterId' is the FK for User
+                include: [{model: User, as: "User", attributes: ["id", "name", "email"]}],
+            });
+
+            return new Response(JSON.stringify(bookings), {status: 200});
+        } catch (error) {
+            console.error("Error fetching bookings:", error);
+            return new Response(JSON.stringify({error: "Internal Server Error"}), {status: 500});
+        }
+    } else {
+        const id = email; // Extract id from URL parameters
+
+        if (!id) {
+            return new Response(JSON.stringify({error: "Id is required"}), {status: 400});
         }
 
-        // Fetch all bookings for this user
-        const bookings = await Booking.findAll({
-            where: {renterId: user.id}, // Assuming 'renterId' is the FK for User
-            include: [{model: User, as: "renter", attributes: ["id", "name", "email"]}],
-        });
+        try {
+            // Find the booking by id
+            const existingBooking = await Booking.findOne({where: {propertyId: id}});
 
-        return res.status(200).json(bookings);
-    } catch (error) {
-        console.error("Error fetching bookings:", error);
-        return res.status(500).json({error: "Internal Server Error"});
+            if (!existingBooking) {
+                return new Response(JSON.stringify({error: "Booking not found"}), {status: 404});
+            }
+
+            return new Response(JSON.stringify(existingBooking), {status: 200});
+        } catch (error) {
+            console.error("Error fetching bookings:", error);
+            return new Response(JSON.stringify({error: "Internal Server Error"}), {status: 500});
+        }
     }
-}
 
+
+}
